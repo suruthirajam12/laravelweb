@@ -15,9 +15,7 @@
                     <div class="todo-item flex justify-between items-center bg-gray-100 p-4 rounded-lg shadow mb-2">
                         <span class="text-gray-800">{{ $item }}</span>
                         <button class="text-red-500 hover:text-red-700" wire:click="deleteTodo('{{ $item }}')">
-                            <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 2a1 1 0 00-1 1v1H7a1 1 0 00-1 1v1h8V5a1 1 0 00-1-1h-1V3a1 1 0 00-1-1zm3 4H7v8a2 2 0 002 2h4a2 2 0 002-2V6z" clip-rule="evenodd" />
-                            </svg>
+                            Delete
                         </button>
                     </div>
                 @endforeach
